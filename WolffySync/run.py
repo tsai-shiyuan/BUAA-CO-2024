@@ -56,6 +56,7 @@ def main():
     flag = 1
     i = 0
     while flag == 1 and i < n:
+        print(f"Round {i+1}...¬‿¬")
         flag = run()
         i += 1
 
